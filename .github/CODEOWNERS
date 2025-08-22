@@ -1,0 +1,42 @@
+# CODEOWNERS file for task-app-390
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-api @Armor-test/dept-reporting @Armor-test/unit-design
+
+# Directory ownership
+/hooks/ @Armor-test/team-core @Armor-test/unit-design @Armor-test/dept-billing
+/styles/ @Armor-test/team-logging @Armor-test/dept-reliability @Armor-test/dept-data
+/static/ @Armor-test/dept-reporting @Armor-test/dept-api
+/views/ @Armor-test/unit-devops @Armor-test/dept-billing
+/api/ @Armor-test/grp-reporting @Armor-test/grp-search
+/controllers/ @Armor-test/dept-identity @Armor-test/squad-cache @Armor-test/team-notifications
+/third_party/ @Armor-test/squad-ml @Armor-test/squad-mobile
+/common/ @Armor-test/dept-api @Armor-test/squad-cloud @Armor-test/grp-api
+/docs/ @Armor-test/dept-billing @Armor-test/squad-cloud @Armor-test/dept-automation
+/internal/ @Armor-test/dept-test @Armor-test/grp-payments
+/scripts/ @Armor-test/grp-storage @Armor-test/team-research
+/spec/ @Armor-test/squad-ux @Armor-test/unit-devops @Armor-test/grp-integration
+/utils/ @Armor-test/dept-release @Armor-test/dept-automation @Armor-test/squad-reporting
+/plugins/ @Armor-test/dept-identity @Armor-test/dept-release @Armor-test/grp-storage
+
+# File type ownership
+*.properties @Armor-test/grp-search @Armor-test/squad-cache
+*.js @Armor-test/unit-devops @Armor-test/unit-governance @Armor-test/dept-data
+*.go @Armor-test/unit-cloud @Armor-test/squad-cache
+*.rs @Armor-test/unit-design @Armor-test/squad-frontend
+*.c @Armor-test/team-core @Armor-test/unit-devops @Armor-test/dept-api
+*.scss @Armor-test/dept-billing @Armor-test/dept-test @Armor-test/dept-release
+*.html @Armor-test/squad-tooling @Armor-test/dept-test @Armor-test/squad-mobile
+*.xml @Armor-test/squad-ux @Armor-test/dept-automation
+*.css @Armor-test/dept-notifications @Armor-test/dept-security
+*.sql @Armor-test/squad-research @Armor-test/team-core
+*.gradle @Armor-test/dept-test @Armor-test/squad-product
+*.php @Armor-test/squad-database @Armor-test/dept-notifications @Armor-test/grp-storage
+*.graphql @Armor-test/team-logging @Armor-test/squad-ml
+*.toml @Armor-test/grp-search @Armor-test/unit-cloud
+*.tsx @Armor-test/unit-cloud @Armor-test/grp-reporting @Armor-test/team-core
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
